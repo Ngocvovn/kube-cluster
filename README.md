@@ -2,7 +2,7 @@
 
 Create a K8S cluster with 1 control plane and 2 worker nodes.
 
-1. Add access credentials to `hosts` file
+1. Create a file called `hosts` and add access credentials to that file. 
  ```
 [control_plane]
 control1 ansible_host=control_plane_ip ansible_user=root 
